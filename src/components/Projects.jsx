@@ -21,7 +21,6 @@ const projects = [
     image: "/images/projects/url-shortener.png",
   },
   
-  // Add more projects similarly...
 ];
 
 const Projects = () => {

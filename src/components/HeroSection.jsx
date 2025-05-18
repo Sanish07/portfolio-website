@@ -8,7 +8,7 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen w-full mt-10 flex flex-col items-center justify-center bg-cover bg-center px-4 py-20 text-white"
       style={{
-        backgroundImage: `url(/images/hero-bg.jpg)`, // Replace with your image path
+        backgroundImage: `url(/images/hero-bg.jpg)`,
       }}
     >
       {/* Backdrop container for everything inside */}
