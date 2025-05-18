@@ -2,6 +2,10 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Publications from '../components/Publications';
+import EducationTimeline from '../components/Education';
+import ContactSection from '../components/Contact';
+import Footer from '../components/Footer';
 
 const LandingPage = () => {
   
@@ -10,6 +14,10 @@ const LandingPage = () => {
         <HeroSection/>
         <About/>
         <Projects/>
+        <Publications/>
+        <EducationTimeline/>
+        <ContactSection/>
+        <Footer/>
     </div>
   );
 

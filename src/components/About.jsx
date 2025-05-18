@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
 
-          {/* Right Side */}
+          {/* Right Side - Skills Section */}
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-4 text-white">My Skills</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">

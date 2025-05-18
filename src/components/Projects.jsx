@@ -27,7 +27,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-[#1f1e1e] text-white px-6 py-20">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">Projects</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-4">🏗️ Projects</h2>
         <p className="text-center text-gray-400 mb-15">
           A few projects that showcase my skills, creativity, and approach to development.
         </p>
@@ -36,7 +36,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-[#1a1a1a] rounded-2xl overflow-hidden shadow-md transition-transform hover:scale-[1.02] duration-300"
+              className="bg-[#1a1a1a] rounded-2xl overflow-hidden shadow-md transition-transform hover:scale-[1.02] hover:shadow-[0_0_15px_#07DA63] duration-300"
             >
               <img
                 src={project.image}
@@ -58,7 +58,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center gap-6 text-[#38fdc9]">
+                <div className="flex items-center gap-6 text-[#07DA63]">
                   <a
                     href={project.github}
                     target="_blank"

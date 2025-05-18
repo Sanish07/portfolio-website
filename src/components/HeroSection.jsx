@@ -23,7 +23,7 @@ const HeroSection = () => {
           className="flex-1 text-center"
         >
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
-            Hey, I’m <span className="text-[#2A004E]">Sanish!</span>
+            Hey, I’m <span className="text-[#2E0249]">Sanish!</span>
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-6">
             A Frontend Web Developer crafting immersive digital experiences.
@@ -31,11 +31,11 @@ const HeroSection = () => {
           <div className="flex flex-col md:flex-row gap-5 justify-center">
             <a
               href="#projects"
-              className="inline-block px-6 py-3 text-white font-semibold rounded-full border-2 border-[#2A004E] hover:bg-[#2A004E] hover:shadow-[0_0_15px_#500073] transition duration-300">
+              className="inline-block px-6 py-3 text-white font-semibold rounded-full border-2 border-[#129990] hover:bg-[#129990] hover:shadow-[0_0_15px_#7AE2CF] transition duration-300">
               View Projects
             </a>
             <a
-              className="inline-block px-6 py-3 text-white font-semibold rounded-full border-2 border-[#80C4E9] hover:bg-[#80C4E9] hover:shadow-[0_0_15px_#5ce2fa] transition duration-300 cursor-pointer">
+              className="inline-block px-6 py-3 text-white font-semibold rounded-full border-2 border-[#F3C623] hover:text-[#222831] hover:bg-[#F3C623] hover:shadow-[0_0_15px_#F7AD45] transition duration-300 cursor-pointer">
               Download Resume
             </a>
           </div>
@@ -45,13 +45,13 @@ const HeroSection = () => {
         <div className="flex justify-center lg:justify-end w-full lg:w-auto">
           <div className="flex flex-row lg:flex-col items-center gap-6 text-3xl">
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="hover:text-[#2A004E] transition-colors duration-300" />
+              <FaGithub className="hover:text-[#000000] transition-colors duration-300" />
             </a>
             <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="hover:text-[#2A004E] transition-colors duration-300" />
+              <FaLinkedin className="hover:text-[#0072b1] transition-colors duration-300" />
             </a>
             <a href="mailto:you@example.com">
-              <FaEnvelope className="hover:text-[#2A004E] transition-colors duration-300" />
+              <FaEnvelope className="hover:text-[#5409DA] transition-colors duration-300" />
             </a>
           </div>
         </div>

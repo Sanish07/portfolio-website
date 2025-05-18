@@ -7,17 +7,18 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
+    { name: "Publications", href: "#publications" },
+    { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#2A004E] shadow-md py-1">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-5 lg:px-7">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="text-3xl md:text-4xl font-bold text-[#EFEEEA] tracking-wide carattere-regular">Sanish</div>
+          <div className="text-2xl md:text-3xl font-bold text-[#EFEEEA] tracking-wide carattere-regular">Sanish&nbsp; Nirwan</div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-8">
