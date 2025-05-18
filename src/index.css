@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;  
+}
+
+body{
+  background-color: #0a0a0a;
+}
+
+.carattere-regular {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neon-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.neon-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #F14A00;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px #F14A00, 0 0 20px #F14A00;
+}
+
+.neon-link:hover {
+  color: #F14A00;
+  text-shadow: 0 0 5px #F14A00, 0 0 10px #F14A00;
+}
+
+.neon-link:hover::after {
+  width: 100%;
+}
