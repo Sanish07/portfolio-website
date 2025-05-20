@@ -55,8 +55,11 @@ const Projects = () => {
     <section id="projects" className="bg-[#1f1e1e] text-white px-6 py-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-4">🏗️ Projects</h2>
-        <p className="text-center text-gray-400 mb-15">
+        <p className="text-center text-gray-400 mb-3">
           A few projects that showcase my skills, creativity, and approach to development.
+        </p>
+        <p className="text-center text-xs text-gray-400 mb-15">
+          (Note: For detailed project information and application previews, refer to each project's GitHub repository.)
         </p>
 
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
