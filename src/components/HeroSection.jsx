@@ -25,9 +25,10 @@ const HeroSection = () => {
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
             Hey, I’m <span className="text-[#2E0249]">Sanish!</span>
           </h1>
-          <p className="text-lg md:text-xl text-white/80 mb-6">
-            A Frontend Web Developer crafting immersive digital experiences.
+          <p className="text-md md:text-lg md:px-35 text-white/80 mb-6">
+            A Full Stack Java Developer specializing in scalable backend systems and modern frontend interfaces.
           </p>
+
           <div className="flex flex-col md:flex-row gap-5 justify-center">
             <a
               href="#projects"
@@ -35,6 +36,8 @@ const HeroSection = () => {
               View Projects
             </a>
             <a
+              href="https://drive.google.com/drive/folders/1dSlTGbxfz3Fw79_gcYvSVuGemgb0mEpu?usp=sharing"
+              target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white font-semibold rounded-full border-2 border-[#F3C623] hover:text-[#222831] hover:bg-[#F3C623] hover:shadow-[0_0_15px_#F7AD45] transition duration-300 cursor-pointer">
               Download Resume
             </a>
@@ -44,13 +47,13 @@ const HeroSection = () => {
         {/* RIGHT: Social Icons */}
         <div className="flex justify-center lg:justify-end w-full lg:w-auto">
           <div className="flex flex-row lg:flex-col items-center gap-6 text-3xl">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Sanish07" target="_blank" rel="noopener noreferrer">
               <FaGithub className="hover:text-[#000000] transition-colors duration-300" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sanish-nirwan" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="hover:text-[#0072b1] transition-colors duration-300" />
             </a>
-            <a href="mailto:you@example.com">
+            <a href="mailto:sanishnirwan07@gmail.com">
               <FaEnvelope className="hover:text-[#5409DA] transition-colors duration-300" />
             </a>
           </div>

@@ -5,20 +5,47 @@ const projects = [
   {
     title: "Movie Booking System",
     description:
-      "A microservices-based movie ticket booking platform. Integrated with RabbitMQ, Gateway, and Notification services.",
-    techStack: ["Microservices", "Spring Cloud", "React"],
-    github: "https://github.com/your-username/movie-booking",
-    liveDemo: "https://bookmyshow-lite.netlify.app",
-    image: "/images/projects/movie-booking.png",
+      "A microservices-based movie ticket booking platform. Integrated with RabbitMQ, API Gateway, Docker for Infrastructure and Notification services.",
+    techStack: ["Microservices","Spring Cloud","Spring Boot","RabbitMQ","Docker","Mailhog","PostgreSQL"],
+    github: "https://github.com/Sanish07/movie-booking-backend",
+    liveDemo: "",
+    image: "/images/projects/movie-booking.jpg",
   },
   {
     title: "URL Shortener Service",
     description:
       "A full-stack web application to shorten URLs with analytics tracking. Built using Spring Boot, React, and PostgreSQL.",
-    techStack: ["Spring Boot", "React", "PostgreSQL"],
-    github: "https://github.com/your-username/url-shortener",
-    liveDemo: "https://shortify.app",
+    techStack: ["Spring Boot","Spring Security","PostgreSQL","React","Tailwind CSS","Cloud Deployment"],
+    github: "https://github.com/Sanish07/linkspark-backend",
+    liveDemo: "https://linkspark.netlify.app/",
     image: "/images/projects/url-shortener.png",
+  },
+  {
+    title: "E-commerce Application",
+    description:
+      "Developed the frontend of an e-commerce web application using React, Redux, and Material UI, integrating it with a pre-built backend.",
+    techStack: ["Spring Boot","MySQL","React","Redux","Material UI"],
+    github: "https://github.com/Sanish07/upgrad-eshop-application",
+    liveDemo: "",
+    image: "/images/projects/ecommerce.jpg",
+  },
+  {
+    title: "AI Utilities Platform",
+    description:
+      "An AI & Data Science Tools Suite platform developed with various NPM libraries for tools, organized into a cohesive and user-friendly interface.",
+    techStack: ["React","Third-Party Library Integration","SASS","Bootstrap","HTML","CSS"],
+    github: "https://github.com/Sanish07/handy-tools",
+    liveDemo: "https://sanish07.github.io/handy-tools",
+    image: "/images/projects/ai-utilities.jpg",
+  },
+  {
+    title: "Photo Search Platform",
+    description:
+      "A dynamic photo search application that allows users to search and explore high-quality images using the Unsplash API.",
+    techStack: ["React","Third-Party API Integration","Deployment"],
+    github: "https://github.com/Sanish07/Unsplash_Photo_Search_CipherSchools",
+    liveDemo: "https://photosearchreact.netlify.app",
+    image: "/images/projects/photo-search.jpg",
   },
   
 ];
@@ -67,14 +94,23 @@ const Projects = () => {
                   >
                     <FaGithub /> Code
                   </a>
-                  <a
-                    href={project.liveDemo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:underline"
-                  >
-                    <FaExternalLinkAlt /> Live
-                  </a>
+                  {
+                  (project.liveDemo.length !== 0) ? 
+                    <a
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 hover:underline"
+                    >
+                      <FaExternalLinkAlt /> Live
+                    </a>
+                    : 
+                      <a
+                      className="flex items-center gap-2 hover:underline text-[#4b4e53]"
+                      >
+                        <FaExternalLinkAlt /> Live
+                      </a>
+                    }
                 </div>
               </div>
             </div>

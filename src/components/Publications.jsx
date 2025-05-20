@@ -1,20 +1,19 @@
-// components/Publications.jsx
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const publications = [
   {
-    title: "Context-Aware Session Security using IP & Device Fingerprints",
+    title: "A Formal Framework for Context-Aware Session Security: IP-Based Verification, Device Signatures, and Multi-Factor Trust Model",
     description:
-      "Published in IEEE Xplore – This paper proposes a multi-factor session validation framework using IP-based and device-signature checks to mitigate session hijacking threats.",
-    link: "https://ieeexplore.ieee.org/document/your-paper-id", // Replace with actual link
-    date: "May 2025",
+      "Unpublished (Ongoing - In Research Phase) - This paper proposes a multi-factor session validation framework using IP-based and device-signature checks to mitigate session hijacking threats.",
+    link: "",
+    date: "In Progress",
   },
   {
-    title: "Secure Multi-Device Authentication for Web Applications",
+    title: "A Comprehensive Study Cyber Attacks and Countermeasures",
     description:
-      "Thesis exploring multi-device access control models and adaptive authentication layers for improved trust in web-based sessions.",
-    link: "/documents/thesis.pdf", // Local link or Google Drive/other
-    date: "March 2025",
+      "Published in IEEE Xplore library - This paper reviews modern cyber threat vectors and proposes preventive strategies and awareness-driven technological solutions to reduce digital scam risks and enhance user resilience.",
+    link: "https://ieeexplore.ieee.org/document/10134237",
+    date: "June 2023",
   },
 ];
 

@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaBasketballBall,
+  FaTelegram
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -17,7 +18,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-2">Sanish Nirwan</h3>
           <p className="text-gray-400 leading-relaxed">
-            A passionate Web Developer building modern web applications and systems
+            A passionate Full Stack Java Developer building modern web applications and systems
             that solve real-world problems and elevate digital experiences.
           </p>
         </div>
@@ -27,19 +28,13 @@ const Footer = () => {
           <h4 className="text-lg font-semibold">Social</h4>
           <div className="flex space-x-4 text-gray-400">
             <motion.a whileHover={{ scale: 1.2 }} href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-xl hover:text-blue-400 transition-colors" />
+              <FaLinkedin className="text-xl hover:text-[#0072b1] transition-colors" />
             </motion.a>
             <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-xl hover:text-gray-100 transition-colors" />
             </motion.a>
-            <motion.a whileHover={{ scale: 1.2 }} href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-xl hover:text-sky-400 transition-colors" />
-            </motion.a>
-            <motion.a whileHover={{ scale: 1.2 }} href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer">
-              <FaYoutube className="text-xl hover:text-red-500 transition-colors" />
-            </motion.a>
-            <motion.a whileHover={{ scale: 1.2 }} href="https://dribbble.com/yourprofile" target="_blank" rel="noopener noreferrer">
-              <FaBasketballBall className="text-xl hover:text-pink-400 transition-colors" />
+            <motion.a whileHover={{ scale: 1.2 }} href="https://t.me/sanishp1" target="_blank" rel="noopener noreferrer">
+              <FaTelegram className="text-xl hover:text-[#24A1DE] transition-colors" />
             </motion.a>
           </div>
         </div>

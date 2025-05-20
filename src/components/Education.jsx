@@ -1,24 +1,23 @@
-// components/EducationTimeline.jsx
 import React from "react";
 
 const educationData = [
   {
-    year: "2022",
-    title: "Master's Degree",
-    subtitle: "Your University Name",
-    description: "Specialized in Software Engineering, focused on distributed systems, cloud computing, and security.",
+    year: "2023-Present",
+    title: "Masters in Computer Science",
+    subtitle: "Liverpool John Moores University, UK",
+    description: "Specialized in Software Engineering, focused on Full Stack Java Development and Application Security research.",
   },
   {
-    year: "2019",
-    title: "Bachelor's Degree",
-    subtitle: "Your College Name",
-    description: "Studied Computer Science with core subjects like Data Structures, Web Development, and Databases.",
+    year: "2023-2024",
+    title: "Diploma - Executive Post Graduate Programme in Software Development",
+    subtitle: "International Institute of Information Technology - Bangalore, India",
+    description: "Acquired advanced industry-relevant skills and developed multiple specialization projects in web development.",
   },
   {
-    year: "2017",
-    title: "Higher Secondary Education",
-    subtitle: "Your School Name",
-    description: "Completed 12th Grade in Science stream with focus on Mathematics and Computer Science.",
+    year: "2019-2023",
+    title: "Bachelor of Technology (Computer Science Engineering)",
+    subtitle: "Lovely Professional University, India",
+    description: "Completed a Bachelor's degree in Computer Science with core coursework in Data Structures and Web Development, and specialized in Full Stack Development.",
   },
 ];
 
