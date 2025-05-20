@@ -27,10 +27,10 @@ const Footer = () => {
         <div className="flex flex-col md:items-end space-y-4">
           <h4 className="text-lg font-semibold">Social</h4>
           <div className="flex space-x-4 text-gray-400">
-            <motion.a whileHover={{ scale: 1.2 }} href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/sanish-nirwan" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-xl hover:text-[#0072b1] transition-colors" />
             </motion.a>
-            <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/Sanish07" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-xl hover:text-gray-100 transition-colors" />
             </motion.a>
             <motion.a whileHover={{ scale: 1.2 }} href="https://t.me/sanishp1" target="_blank" rel="noopener noreferrer">
